@@ -48,3 +48,36 @@
 //     let result = number1 * number2
 //     sumEl.textContent = "Sun: " + result
 // }
+
+
+// let firstCard  = 11
+// let secondCard = 11
+
+// let Sum = firstCard + secondCard
+// console.log(Sum); 
+
+
+// if(Sum < 21){
+//   console.log("Do you want to draw a new card? 🙂");
+// }else if(Sum === 21){
+//   console.log("Wohoo! You've got Blackjack! 🥳");
+// }else if(Sum > 21){
+//     console.log("You're out of the game! 😭");
+//   }
+
+//heck if the person is old enough to enter the nightclub (21)
+// Log a suitable message to the console in both cases
+
+
+// if less than 21 -> "You can not enter the club!"
+// else            -> "Welcome!"
+  let Content = document.getElementById("content")
+  let age = 22
+
+  if(age < 21){
+   console.log("You can not enter the club!");
+   Content.textContent =  "You can not enter the club!"
+  }else{
+    console.log("Welcome!");
+    Content.textContent = "Welcome!"
+  }
